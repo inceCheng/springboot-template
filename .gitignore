@@ -1,0 +1,186 @@
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.properties
+
+# Maven本地配置
+.m2/settings.xml
+.m2/settings-security.xml
+
+# Gradle (如果将来使用)
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# IDE - IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+# IDE - Eclipse
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+# IDE - VSCode
+.vscode/
+.code-workspace
+*.code-workspace
+
+# IDE - Cursor
+.cursor/
+.cursor-settings/
+*.cursor-workspace
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+.specstory/
+
+# Java
+*.class
+*.log
+*.ctxt
+.mtj.tmp/
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+replay_pid*
+
+# Spring Boot
+spring-boot-*.log
+application-*.log
+
+# 日志文件
+logs/
+*.log
+log/
+*.log.*
+
+# 临时文件
+*.tmp
+*.temp
+.temp/
+.tmp/
+
+# 系统文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 数据库文件
+*.db
+*.sqlite
+*.sqlite3
+
+# Redis dump文件
+dump.rdb
+
+# Node.js (如果前端使用)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 编译输出
+dist/
+build/
+
+# 缓存目录
+.cache/
+.sass-cache/
+
+# 备份文件
+*.bak
+*.backup
+*.old
+
+# 配置文件备份
+application-*.yml.bak
+application-*.properties.bak
+
+# 开发工具配置
+.factorypath
+.recommenders/
+
+# JRebel
+rebel.xml
+
+# 测试报告
+test-output/
+test-results/
+
+# 覆盖率报告
+.jacoco/
+jacoco.exec
+*.exec
+
+# SonarQube
+.sonar/
+.scannerwork/
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# 其他
+*.swp
+*.swo
+*~.nib
+local.properties
+.loadpath
+.recommenders
+.target
+.metadata
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.properties

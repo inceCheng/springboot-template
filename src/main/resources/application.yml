@@ -1,0 +1,37 @@
+spring:
+  profiles:
+    active: local  # 默认使用本地配置
+  application:
+    name: springboot-template
+
+server:
+  port: 8080
+  servlet:
+    context-path: /api
+  forward-headers-strategy: framework
+  # 添加Tomcat配置
+  tomcat:
+    remoteip:
+      remote-ip-header: X-Forwarded-For
+      protocol-header: X-Forwarded-Proto
+      port-header: X-Forwarded-Port
+      host-header: X-Forwarded-Host
+      internal-proxies: 127\\.0\\.0\\.1
+    # 设置Tomcat的文件上传限制
+    max-http-form-post-size: 10MB
+    max-swallow-size: 10MB
+
+# knife4j
+knife4j:
+  enable: true
+  setting:
+    language: zh_cn
+
+# 日志配置
+logging:
+  level:
+    root: INFO
+    com.ince.inceaiagent: DEBUG
+    org.springframework.web.filter.CommonsRequestLoggingFilter: DEBUG
+    org.springframework.ai.chat.client.advisor.SimpleLoggerAdvisor: debug
+

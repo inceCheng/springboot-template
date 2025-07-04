@@ -244,7 +244,7 @@ if (user == null) {
 
 如有问题或建议，请通过以下方式联系：
 
-- 项目 Issues：[GitHub Issues](https://github.com/your-repo/issues)
+- 项目 Issues：[GitHub Issues](https://github.com/inceCheng/springboot-template/issues)
 - 邮箱：chg99925@gmail.com
 
 ---
